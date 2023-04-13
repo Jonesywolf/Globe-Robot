@@ -7,6 +7,7 @@ pm.init(channels = 2)
 rate = 44100
 dur = 100 # ms
 freq = 880 # Hz
+
 def play_note(freq, dur):
     t = np.arange(int(dur/1000 * rate))
     l = np.sin(2 * np.pi * freq * t / rate)
@@ -20,6 +21,7 @@ def play_note(freq, dur):
     sound.set_volume(0.3)
     sound.play()
     pygame.time.wait(dur+10)
+    
 if __name__ == "__main__":
     play_note(2083//2, 50)
     play_note(3130//2, 100)
