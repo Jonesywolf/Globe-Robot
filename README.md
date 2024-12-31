@@ -1,4 +1,7 @@
 # Globe-Robot
+![Demo Video](https://github.com/Jonesywolf/Globe-Robot/blob/main/demo.gif)
+
+See a demo of the project [here](https://www.youtube.com/watch?v=3yApgu7Wu_0).
 
 ### Setup
 
